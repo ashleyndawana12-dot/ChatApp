@@ -55,7 +55,7 @@ public boolean checkPasswordComplexity() {
     
     return password.length() >= 8 && hasCapital && hasNumber && hasSpecial;
 } 
-// Reference: Oracle Java Pattern documentation, Java SE.
+// Regular expression based on Oracle Java Pattern documentation (Oracle, 2026)
 public boolean checkCellPhoneNumber() {
     return cellphoneNumber.matches("^\\+27[0-9]{9}$");
 }
