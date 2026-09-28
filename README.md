@@ -12,3 +12,13 @@ The application includes username, password, cellphone number and login validati
 
 
 
+\##Testing 
+
+
+
+The project uses JUnit 5 for automated testing and Maven to run the test suite.
+
+
+
+The GitHub Actions workflow automatically runs the Maven tests when changes are pushed to the main branch.
+
