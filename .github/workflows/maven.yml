@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main", "KhanbanTasks" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "KhanbanTasks" ]
 
 jobs:
   test:
