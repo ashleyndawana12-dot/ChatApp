@@ -164,8 +164,11 @@ public class ChatApp {
                     break;
 
                 case "2":
-                    System.out.println("Coming Soon.");
-                    break;
+                   Message display = new Message(
+            "0000000000", 0,
+            "+27718693002", "Temporary message");
+    System.out.println(display.printMessages());
+    break;
 
                 case "3":
                     System.out.println("Total messages successfully sent: "
