@@ -2,7 +2,7 @@ name: Maven Tests
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "KhanbanTasks" ]
   pull_request:
     branches: [ "main" ]
 
