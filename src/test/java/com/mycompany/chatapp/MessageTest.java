@@ -91,7 +91,7 @@ public class MessageTest {
         Message message = new Message(
                 "0012345679", 1, "+27718693002", "Hi Mike, thanks.");
 
-        assertEquals("Press 0 to delete the message.",
+        assertEquals("Message successfully disregarded.",
                 message.SentMessage(2));
     }
 
