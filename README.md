@@ -45,3 +45,14 @@ Open the project in Apache NetBeans and run the `ChatApp` main class. The projec
 
  Repository
 This project is maintained on GitHub in the `KhanbanTasks` branch.
+
+Usage Guide
+
+1. Run the `ChatApp` main class.
+2. Register by entering your first name, last name, username, password, and cellphone number.
+3. Log in using your registered username and password.
+4. Select the messaging options from the main menu.
+5. Enter the number of messages you want to process.
+6. Choose whether to send, disregard, or store each message.
+7. Access the Stored Messages menu to search, display, or delete stored messages.
+8. Select Quit when you are finished.
